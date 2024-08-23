@@ -11,6 +11,10 @@ export const FooterContainer = styled.footer`
     gap: 30px;
     padding: 0 50px;
     background-color: #DCDCDC;
+
+    @media (max-width: 555px) {
+        padding: 0 20px;
+    }
 `
 
 export const Title = styled.h1`
