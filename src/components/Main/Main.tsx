@@ -83,7 +83,7 @@ const Main = () => {
             <DivSocials>
                 <ULSocials>
                     <LISocials>
-                        <Ancor href={'https://www.facebook.com/danielgoncalvesdossantos2012/'} target="_blank" rel="noopener noreferrer">
+                        <Ancor href={'https://www.linkedin.com/in/daniel-g-dos-santos/'} target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={40} />
                         </Ancor>
                     </LISocials>
