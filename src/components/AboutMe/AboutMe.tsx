@@ -17,7 +17,7 @@ const AboutMe = () => {
 
             {/* Foto - Sobre Mim */}
             <AboutMePhotoSection>
-                <AboutMePhoto src="./src/assets/images/perfil-sobremim.png" alt="Daniel Gonçalves" />
+                <AboutMePhoto src="/assets/images/perfil-sobremim.png" alt="Daniel Gonçalves" />
             </AboutMePhotoSection>
 
             {/* Text - Sobre Mim */}
@@ -35,7 +35,7 @@ const AboutMe = () => {
                 </AboutMeText>
                 <ButtonDiv>
                     <ButtonMore>
-                        <AncorDownload href="/src/assets/docs/CV Daniel Goncalves.pdf" download>
+                        <AncorDownload href="/assets/docs/CV Daniel Goncalves.pdf" download>
                             Resumo
                         </AncorDownload>
                     </ButtonMore>
