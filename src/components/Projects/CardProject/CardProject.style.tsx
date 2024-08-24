@@ -38,7 +38,7 @@ export const CardTopDiv = styled.div`
 export const NameProject = styled.h1`
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1.05rem, 3vw, 1.5rem);
 `
 
 export const DescriptionProject = styled.p`
@@ -49,7 +49,7 @@ export const DescriptionProject = styled.p`
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     white-space: normal;
-    font-size: clamp(0.6rem, 2vw, 0.8rem);
+    font-size: clamp(0.7rem, 2vw, 0.8rem);
 `
 
 export const Button = styled.button`
@@ -57,7 +57,7 @@ export const Button = styled.button`
     background-color: rgba( 0, 0, 0, 0);
     border: 1px solid gray;
     border-radius: 4px;
-    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    font-size: clamp(1rem, 3vw, 1.2rem);
     transition: 1s;
 
     &:hover {
@@ -104,7 +104,7 @@ export const CardBottomDiv = styled.div`
 export const TechnologiesTitle = styled.p`
     display: flex;
     flex-direction: column;
-    font-size: clamp(0.7rem, 2vw, 1rem);
+    font-size: clamp(0.8rem, 2vw, 1rem);
     gap: 10px;
     `
 
@@ -115,5 +115,5 @@ export const TechnologiasList = styled.span`
 `
 
 export const LastUpdate = styled.p`
-    font-size: clamp(0.5rem, 2vw, 0.7rem);
+    font-size: clamp(0.6rem, 2vw, 0.7rem);
 `

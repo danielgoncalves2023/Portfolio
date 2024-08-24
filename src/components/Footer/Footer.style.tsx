@@ -23,7 +23,7 @@ export const Title = styled.h1`
 
 export const PTextFooter = styled.p`
     height: auto;
-    font-size: clamp(0.7rem, 2vw, 1.2rem);
+    font-size: clamp(0.8rem, 2vw, 1.2rem);
     line-height: 1.5;
 `
 
@@ -42,6 +42,6 @@ export const SpanName = styled.span`
 
 export const SpanAncorWhatsapp = styled.span<{$cursor?: string}>`
     padding: 0 10px;
-    font-size: clamp(0.9rem, 2vw, 1.3rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     cursor: ${({ $cursor }) => $cursor};
 `

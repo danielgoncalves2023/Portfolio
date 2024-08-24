@@ -17,12 +17,12 @@ export const MainContainer = styled(motion.main)`
 
 export const TitleMain = styled.h1`
     text-align: center;
-    font-size: clamp(2rem, 6vw, 4rem);
+    font-size: clamp(2.7rem, 4vw, 4rem);
 `
 
 export const SubTitle = styled(motion.p)`
     height: 30px;
-    font-size: clamp(0.7rem, 3vw, 1.5rem);
+    font-size: clamp(0.9rem, 4vw, 1.5rem);
 `
 
 export const Cursor = styled(motion.span)`
@@ -70,7 +70,7 @@ export const ButtonMoreAboutMe = styled.button`
     height: 50px;
     background-color: rgba(255, 255, 255, 0);
     color: #FFFFFF;
-    font-size: clamp(0.9rem, 4vw, 1.2rem);
+    font-size: clamp(1rem, 3vw, 1.2rem);
     cursor: pointer;
     border-radius: 8px;
     border: 1px solid #FFFFFF;

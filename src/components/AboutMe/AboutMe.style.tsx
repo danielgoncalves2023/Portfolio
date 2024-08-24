@@ -41,11 +41,13 @@ export const AboutMeDetailSection = styled.div`
 `
 
 export const AboutMeTitle = styled.h1`
-    font-size: clamp(1.8em, 5vw, 2.5em);
+    font-size: clamp(2rem, 4vw, 2.5rem);
 `
 
 export const AboutMeText = styled.p`
-    font-size: clamp(0.7em, 2vw, 1rem);
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    text-align: justify;
+    line-height: 1.5;
 `
 
 export const ButtonDiv = styled.div`
